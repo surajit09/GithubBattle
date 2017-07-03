@@ -1,5 +1,5 @@
 var axios = require('axios');
-
+require("babel-polyfill");
 var id = "ea8b4116f31c958b9d70";
 var sec = "3752c5ac6eee8123170cca19dbccd798533f9038";
 var params = "?client_id=" + id + "&client_secret=" + sec;
